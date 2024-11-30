@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation_bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.7rem;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(22, 21, 21);
+    position: sticky;
+    top: 0;
+}
+
+.navigation_bar img {
+    margin-top: 1px;
+    height: 20px;
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.navigation_bar a {
+    text-decoration: none;
+    color: hsl(0, 0%, 71%);
+}
+
+.navigation_bar a:hover, .navigation_bar a:focus {
+    color: hsl(0, 0%, 85%);
+    transition-duration: 0.4s;
+}
+
+.iPad, .iPadair, .macair{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color: white;
+    height: 80vh;
+    background-image: url(Images/ipadpro.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.iPad p, .iPadair p {
+    font-size: 1.8rem;
+}
+
+.iPad a, .iPadair a, .macair a {
+    width: 8rem;
+    font-size: 1rem;
+    background-color: hsl(211, 100%, 50%);
+    border: 1px solid hsl(211, 100%, 50%);
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.iPad a:hover, .iPad a:focus, .macair a:hover, .macair a:focus {
+    background-color: hsl(208, 100%, 50%);
+}
+
+main a {
+    text-decoration: none;
+    color: white;
+    margin-top: 6rem;
+    display: inline-block;
+}
+
+main a:visited {
+    color: white;
+}
+
+.iPadair {
+    margin-top: 12px;
+    background-image: url(Images/iPadairr.jpg);
+
+}
+
+.iPadair p, .macair p {
+    color: black;
+    margin-top: 1rem;
+}
+
+.iPadair a {
+    background-color: hsl(0, 0%, 11%);
+}
+
+.iPadair a:hover, .iPadair a:focus {
+    background-color: hsl(0, 0%, 16%);
+}
+
+.macair {
+    margin-top: 12px;
+    background-image: url(Images/macair.jpg);
+}
+
+.macair h2 {
+    color: black;
+}
+
+section {
+    margin-top: 12px;
+    
+}
+
+section p {
+    margin-top: 0.7rem;
+}
+
+.iPhone15, .macpro, .watchultra{
+    text-align: center;
+    width: 49.45%;
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+    color: black;
+    height: 80vh;
+    background-image: url(Images/iphone15.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: inline-block;
+}
+
+.iphone15pro, .watch9, .airpod{
+    width: 49.45%;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+    color: white;
+    height: 80vh;
+    float: right;
+    background-image: url(Images/15pro.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+section a {
+    width: 7rem;
+    font-size: 1rem;
+    background-color: hsl(211, 100%, 50%);
+    border: 1px solid hsl(211, 100%, 50%);
+    border-radius: 2rem;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+section a:hover, section a:focus {
+    background-color: hsl(208, 100%, 50%);
+}
+
+.watch9 {
+    background-image: url(Images/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium_2x.jpg);
+    float: left;
+    margin-top: 12px;
+}
+
+.macpro {
+    background-image: url(Images/macbookpro1.jpg);
+    margin-top: 12px;
+    float: right;
+    background-position: bottom;
+}
+
+.airpod {
+    background-image: url(Images/airpods.jpg);
+    float: left;
+    margin-top: 12px;
+}
+
+.watchultra {
+    background-image: url(Images/applewatchultra2.jpg);
+    float: right;
+    margin-top: 12px;
+}
+
+.watchultra img {
+    width: 120px;
+}
+
+footer {
+    color: hsl(0, 0%, 16%);
+    background-color: #dddddd;
+    height: 30vh;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 76.5rem;
+}
+
+footer a {
+    color: hsl(0, 0%, 16%);
+}
+
+.others {
+    line-height: 2;
+    font-size: 0.7rem;
+    column-count: 4;
+    column-width: 100px;
+    column-gap: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.others ul {
+    list-style-type: none;
+}
+
+.others a {
+    text-decoration: none;
+    color: hsl(0, 0%, 16%);
+}
+
+.others a:hover, .others a:focus {
+    text-decoration: underline;
+}
